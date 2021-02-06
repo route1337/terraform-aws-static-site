@@ -118,12 +118,6 @@ resource "aws_cloudfront_distribution" "auth_static_site_redirect" {
       lambda_arn = aws_lambda_function.static_site_security_headers.qualified_arn
     }
 
-    # Authentication
-    lambda_function_association {
-      event_type = "viewer-request"
-      lambda_arn = var.auth_lambda
-    }
-
     allowed_methods = ["GET", "HEAD"]
     cached_methods  = ["GET", "HEAD"]
     compress        = false
