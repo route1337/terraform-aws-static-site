@@ -86,7 +86,7 @@ resource "aws_lambda_function" "static_site_security_headers" {
   role             = aws_iam_role.static_site_lambda_at_edge.arn
   handler          = "static-site-security-headers.handler"
   source_code_hash = data.archive_file.static_site_security_headers_zip.output_base64sha256
-  runtime          = "nodejs10.x"
+  runtime          = "nodejs12.x"
   memory_size      = 128
   timeout          = 3
   publish          = true
