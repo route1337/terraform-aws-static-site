@@ -2,6 +2,11 @@ Terraform Module - AWS Static Site: Changelog
 =====================================
 A list of all the changes made to this repo, and the Terraform module it contains
 
+Version 1.1.0
+-------------
+
+1. Changing the headers Lambda to Node.js 12.x 
+
 Version 1.0.1
 -------------
 
