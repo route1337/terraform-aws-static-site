@@ -36,3 +36,9 @@ Testing
 -------
 This role is fully tested AWS in a live environment.  
 [TESTING.md](TESTING.md) contains details and instructions for testing. 
+
+Donate To Support This Terraform Module
+---------------------------------------
+Route 1337 LLC's open source code heavily relies on donations. If you find this Terraform module useful, please consider using the GitHub Sponsors button to show your continued support.
+
+Thank you for your support!
