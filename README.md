@@ -34,7 +34,7 @@ module "static-site" {
 
 Testing
 -------
-This role is fully tested AWS in a live environment.  
+This module is fully tested AWS in a live environment.  
 [TESTING.md](TESTING.md) contains details and instructions for testing. 
 
 Donate To Support This Terraform Module
